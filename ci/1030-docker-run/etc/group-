@@ -28,8 +28,7 @@ input:x:999:
 systemd-journal:x:190:
 systemd-network:x:192:
 dbus:x:81:
-gluster:x:998:
-ssh_keys:x:997:
+ssh_keys:x:998:
 tss:x:59:
 stapusr:x:156:
 stapsys:x:157:
