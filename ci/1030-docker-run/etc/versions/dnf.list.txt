@@ -16,6 +16,8 @@ bind-license.noarch                                                 32:9.11.4-26
 binutils.x86_64                                                     2.27-44.base.0.1.an7.1                                        @System 
 bison.x86_64                                                        3.0.4-2.an7                                                   @os     
 boost-date-time.x86_64                                              1.53.0-28.an7                                                 @os     
+boost-iostreams.x86_64                                              1.53.0-28.an7                                                 @os     
+boost-random.x86_64                                                 1.53.0-28.an7                                                 @os     
 boost-system.x86_64                                                 1.53.0-28.an7                                                 @os     
 boost-thread.x86_64                                                 1.53.0-28.an7                                                 @os     
 byacc.x86_64                                                        1.9.20130304-3.an7                                            @os     
@@ -81,10 +83,15 @@ glibc.x86_64                                                        2.17-326.an7
 glibc-common.x86_64                                                 2.17-326.an7                                                  @System 
 glibc-devel.x86_64                                                  2.17-326.an7                                                  @updates
 glibc-headers.x86_64                                                2.17-326.an7                                                  @updates
+glusterfs.x86_64                                                    6.0-61.an7                                                    @updates
+glusterfs-api.x86_64                                                6.0-61.an7                                                    @updates
+glusterfs-client-xlators.x86_64                                     6.0-61.an7                                                    @updates
+glusterfs-libs.x86_64                                               6.0-61.an7                                                    @updates
 gmp.x86_64                                                          1:6.0.0-15.an7                                                @System 
 gnupg2.x86_64                                                       2.0.22-5.an7                                                  @System 
 gnutls.x86_64                                                       3.3.29-9.0.1.an7                                              @os     
 gobject-introspection.x86_64                                        1.56.1-1.an7                                                  @System 
+gperftools-libs.x86_64                                              2.6.1-1.an7                                                   @os     
 gpgme.x86_64                                                        1.3.2-5.an7                                                   @System 
 gpm-libs.x86_64                                                     1.20.7-6.an7                                                  @os     
 grep.x86_64                                                         2.20-3.an7                                                    @System 
@@ -108,6 +115,7 @@ kpartx.x86_64                                                       0.4.9-136.an
 krb5-libs.x86_64                                                    1.15.1-55.0.1.an7                                             @System 
 less.x86_64                                                         458-9.an7                                                     @os     
 libacl.x86_64                                                       2.2.51-15.an7                                                 @System 
+libaio.x86_64                                                       0.3.109-13.an7                                                @os     
 libasan.x86_64                                                      4.8.5-44.0.1.an7                                              @os     
 libassuan.x86_64                                                    2.1.0-3.an7                                                   @System 
 libatomic.x86_64                                                    4.8.5-44.0.1.an7                                              @os     
@@ -131,6 +139,7 @@ libgfortran.x86_64                                                  4.8.5-44.0.1
 libgomp.x86_64                                                      4.8.5-44.0.1.an7                                              @os     
 libgpg-error.x86_64                                                 1.12-3.an7                                                    @System 
 libidn.x86_64                                                       1.28-4.an7                                                    @System 
+libiscsi.x86_64                                                     1.9.0-7.an7                                                   @os     
 libmodman.x86_64                                                    2.0.1-8.an7                                                   @os     
 libmodulemd.x86_64                                                  1.6.3-1.an7.0.1                                               @System 
 libmount.x86_64                                                     2.23.2-65.an7.1                                               @System 
@@ -139,6 +148,8 @@ libproxy.x86_64                                                     0.4.11-11.an
 libpwquality.x86_64                                                 1.2.3-5.an7                                                   @System 
 libquadmath.x86_64                                                  4.8.5-44.0.1.an7                                              @os     
 libquadmath-devel.x86_64                                            4.8.5-44.0.1.an7                                              @os     
+librados2.x86_64                                                    1:10.2.5-4.an7                                                @os     
+librbd1.x86_64                                                      1:10.2.5-4.an7                                                @os     
 librepo.x86_64                                                      1.8.1-8.an7                                                   @System 
 libreport-filesystem.x86_64                                         2.1.11-53.0.2.an7                                             @System 
 librhsm.x86_64                                                      0.0.3-3.an7                                                   @System 
@@ -248,6 +259,7 @@ python2-hawkey.x86_64                                               0.22.5-2.an7
 python2-libcomps.x86_64                                             0.1.8-14.an7                                                  @System 
 python2-libdnf.x86_64                                               0.22.5-2.an7                                                  @System 
 pyxattr.x86_64                                                      0.5.1-5.an7                                                   @System 
+qemu-img.x86_64                                                     10:1.5.3-175.an7.6                                            @updates
 qrencode-libs.x86_64                                                3.4.1-3.an7                                                   @System 
 rcs.x86_64                                                          5.9.0-7.an7                                                   @os     
 readline.x86_64                                                     6.2-11.an7                                                    @System 
@@ -1517,7 +1529,6 @@ boost-filesystem.x86_64                                             1.53.0-28.an
 boost-graph.x86_64                                                  1.53.0-28.an7                                                 os      
 boost-graph-mpich.x86_64                                            1.53.0-28.an7                                                 os      
 boost-graph-openmpi.x86_64                                          1.53.0-28.an7                                                 os      
-boost-iostreams.x86_64                                              1.53.0-28.an7                                                 os      
 boost-jam.x86_64                                                    1.53.0-28.an7                                                 os      
 boost-locale.x86_64                                                 1.53.0-28.an7                                                 os      
 boost-math.x86_64                                                   1.53.0-28.an7                                                 os      
@@ -1535,7 +1546,6 @@ boost-python.x86_64                                                 1.53.0-28.an
 boost-python36.x86_64                                               1.53.0-30.el7                                                 epel    
 boost-python36-devel.x86_64                                         1.53.0-30.el7                                                 epel    
 boost-python36-static.x86_64                                        1.53.0-30.el7                                                 epel    
-boost-random.x86_64                                                 1.53.0-28.an7                                                 os      
 boost-regex.x86_64                                                  1.53.0-28.an7                                                 os      
 boost-serialization.x86_64                                          1.53.0-28.an7                                                 os      
 boost-signals.x86_64                                                1.53.0-28.an7                                                 os      
@@ -4839,14 +4849,10 @@ glpk-doc.x86_64                                                     4.52.1-2.el7
 glpk-static.x86_64                                                  4.52.1-2.el7                                                  epel    
 glpk-utils.x86_64                                                   4.52.1-2.el7                                                  epel    
 glue-schema.noarch                                                  2.1.0-1.el7                                                   epel    
-glusterfs.x86_64                                                    6.0-61.an7                                                    updates 
-glusterfs-api.x86_64                                                6.0-61.an7                                                    updates 
 glusterfs-api-devel.x86_64                                          6.0-61.an7                                                    updates 
 glusterfs-cli.x86_64                                                6.0-61.an7                                                    updates 
-glusterfs-client-xlators.x86_64                                     6.0-61.an7                                                    updates 
 glusterfs-devel.x86_64                                              6.0-61.an7                                                    updates 
 glusterfs-fuse.x86_64                                               6.0-61.an7                                                    updates 
-glusterfs-libs.x86_64                                               6.0-61.an7                                                    updates 
 glusterfs-rdma.x86_64                                               6.0-61.an7                                                    updates 
 glx-utils.x86_64                                                    8.3.0-10.an7                                                  os      
 gmime.x86_64                                                        2.6.23-1.el7                                                  epel    
@@ -5377,7 +5383,6 @@ gpaw-setups.noarch                                                  0.9.11271-2.
 gperf.x86_64                                                        3.0.4-8.an7                                                   os      
 gperftools.x86_64                                                   2.6.1-1.an7                                                   os      
 gperftools-devel.x86_64                                             2.6.1-1.an7                                                   os      
-gperftools-libs.x86_64                                              2.6.1-1.an7                                                   os      
 gpgme-devel.x86_64                                                  1.3.2-5.an7                                                   os      
 gpm.x86_64                                                          1.20.7-6.an7                                                  os      
 gpm-devel.x86_64                                                    1.20.7-6.an7                                                  os      
@@ -7630,7 +7635,6 @@ libaec.x86_64                                                       1.0.4-1.el7 
 libaec-devel.x86_64                                                 1.0.4-1.el7                                                   epel    
 libaesgm.x86_64                                                     20090429-10.el7                                               epel    
 libaesgm-devel.x86_64                                               20090429-10.el7                                               epel    
-libaio.x86_64                                                       0.3.109-13.an7                                                os      
 libaio-devel.x86_64                                                 0.3.109-13.an7                                                os      
 libalkimia.x86_64                                                   4.3.2-3.el7                                                   epel    
 libalkimia-devel.x86_64                                             4.3.2-3.el7                                                   epel    
@@ -8247,7 +8251,6 @@ libircclient.x86_64                                                 1.8-4.el7   
 libircclient-devel.x86_64                                           1.8-4.el7                                                     epel    
 libirman.x86_64                                                     0.4.5-9.el7                                                   epel    
 libirman-devel.x86_64                                               0.4.5-9.el7                                                   epel    
-libiscsi.x86_64                                                     1.9.0-7.an7                                                   os      
 libisds.x86_64                                                      0.11.2-1.el7                                                  epel    
 libisds-devel.x86_64                                                0.11.2-1.el7                                                  epel    
 libisoburn.x86_64                                                   1.5.6-1.el7                                                   epel    
@@ -8731,14 +8734,12 @@ libr12.x86_64                                                       1.2.1-2.el7 
 librabbitmq.x86_64                                                  0.8.0-3.an7                                                   os      
 librabbitmq-devel.x86_64                                            0.8.0-3.an7                                                   os      
 librabbitmq-examples.x86_64                                         0.8.0-3.an7                                                   os      
-librados2.x86_64                                                    1:10.2.5-4.an7                                                os      
 librados2-devel.x86_64                                              1:10.2.5-4.an7                                                os      
 libraqm.x86_64                                                      0.7.0-4.el7                                                   epel    
 libraqm-devel.x86_64                                                0.7.0-4.el7                                                   epel    
 libraqm-docs.noarch                                                 0.7.0-4.el7                                                   epel    
 libraw1394.x86_64                                                   2.1.0-2.an7                                                   os      
 libraw1394-devel.x86_64                                             2.1.0-2.an7                                                   os      
-librbd1.x86_64                                                      1:10.2.5-4.an7                                                os      
 librbd1-devel.x86_64                                                1:10.2.5-4.an7                                                os      
 librcc.x86_64                                                       0.2.12-15.el7                                                 epel    
 librcc-devel.x86_64                                                 0.2.12-15.el7                                                 epel    
@@ -17169,7 +17170,6 @@ qdox-javadoc.noarch                                                 1.12.1-10.an
 qemu.x86_64                                                         2:2.0.0-5.el7                                                 epel    
 qemu-common.x86_64                                                  2:2.0.0-5.el7                                                 epel    
 qemu-guest-agent.x86_64                                             10:2.12.0-3.an7                                               os      
-qemu-img.x86_64                                                     10:1.5.3-175.an7.6                                            updates 
 qemu-kvm.x86_64                                                     10:1.5.3-175.an7.6                                            updates 
 qemu-kvm-common.x86_64                                              10:1.5.3-175.an7.6                                            updates 
 qemu-kvm-tools.x86_64                                               10:1.5.3-175.an7.6                                            updates 

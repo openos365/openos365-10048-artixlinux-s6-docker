@@ -28,6 +28,7 @@ input:!::
 systemd-journal:!::
 systemd-network:!::
 dbus:!::
+gluster:!::
 ssh_keys:!::
 tss:!::
 stapusr:!::

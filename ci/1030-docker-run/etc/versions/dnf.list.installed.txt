@@ -14,6 +14,8 @@ bind-license.noarch                     32:9.11.4-26.P2.an7.15          @System
 binutils.x86_64                         2.27-44.base.0.1.an7.1          @System 
 bison.x86_64                            3.0.4-2.an7                     @os     
 boost-date-time.x86_64                  1.53.0-28.an7                   @os     
+boost-iostreams.x86_64                  1.53.0-28.an7                   @os     
+boost-random.x86_64                     1.53.0-28.an7                   @os     
 boost-system.x86_64                     1.53.0-28.an7                   @os     
 boost-thread.x86_64                     1.53.0-28.an7                   @os     
 byacc.x86_64                            1.9.20130304-3.an7              @os     
@@ -79,10 +81,15 @@ glibc.x86_64                            2.17-326.an7                    @System
 glibc-common.x86_64                     2.17-326.an7                    @System 
 glibc-devel.x86_64                      2.17-326.an7                    @updates
 glibc-headers.x86_64                    2.17-326.an7                    @updates
+glusterfs.x86_64                        6.0-61.an7                      @updates
+glusterfs-api.x86_64                    6.0-61.an7                      @updates
+glusterfs-client-xlators.x86_64         6.0-61.an7                      @updates
+glusterfs-libs.x86_64                   6.0-61.an7                      @updates
 gmp.x86_64                              1:6.0.0-15.an7                  @System 
 gnupg2.x86_64                           2.0.22-5.an7                    @System 
 gnutls.x86_64                           3.3.29-9.0.1.an7                @os     
 gobject-introspection.x86_64            1.56.1-1.an7                    @System 
+gperftools-libs.x86_64                  2.6.1-1.an7                     @os     
 gpgme.x86_64                            1.3.2-5.an7                     @System 
 gpm-libs.x86_64                         1.20.7-6.an7                    @os     
 grep.x86_64                             2.20-3.an7                      @System 
@@ -106,6 +113,7 @@ kpartx.x86_64                           0.4.9-136.an7                   @System
 krb5-libs.x86_64                        1.15.1-55.0.1.an7               @System 
 less.x86_64                             458-9.an7                       @os     
 libacl.x86_64                           2.2.51-15.an7                   @System 
+libaio.x86_64                           0.3.109-13.an7                  @os     
 libasan.x86_64                          4.8.5-44.0.1.an7                @os     
 libassuan.x86_64                        2.1.0-3.an7                     @System 
 libatomic.x86_64                        4.8.5-44.0.1.an7                @os     
@@ -129,6 +137,7 @@ libgfortran.x86_64                      4.8.5-44.0.1.an7                @os
 libgomp.x86_64                          4.8.5-44.0.1.an7                @os     
 libgpg-error.x86_64                     1.12-3.an7                      @System 
 libidn.x86_64                           1.28-4.an7                      @System 
+libiscsi.x86_64                         1.9.0-7.an7                     @os     
 libmodman.x86_64                        2.0.1-8.an7                     @os     
 libmodulemd.x86_64                      1.6.3-1.an7.0.1                 @System 
 libmount.x86_64                         2.23.2-65.an7.1                 @System 
@@ -137,6 +146,8 @@ libproxy.x86_64                         0.4.11-11.an7                   @os
 libpwquality.x86_64                     1.2.3-5.an7                     @System 
 libquadmath.x86_64                      4.8.5-44.0.1.an7                @os     
 libquadmath-devel.x86_64                4.8.5-44.0.1.an7                @os     
+librados2.x86_64                        1:10.2.5-4.an7                  @os     
+librbd1.x86_64                          1:10.2.5-4.an7                  @os     
 librepo.x86_64                          1.8.1-8.an7                     @System 
 libreport-filesystem.x86_64             2.1.11-53.0.2.an7               @System 
 librhsm.x86_64                          0.0.3-3.an7                     @System 
@@ -246,6 +257,7 @@ python2-hawkey.x86_64                   0.22.5-2.an7                    @System
 python2-libcomps.x86_64                 0.1.8-14.an7                    @System 
 python2-libdnf.x86_64                   0.22.5-2.an7                    @System 
 pyxattr.x86_64                          0.5.1-5.an7                     @System 
+qemu-img.x86_64                         10:1.5.3-175.an7.6              @updates
 qrencode-libs.x86_64                    3.4.1-3.an7                     @System 
 rcs.x86_64                              5.9.0-7.an7                     @os     
 readline.x86_64                         6.2-11.an7                      @System 
